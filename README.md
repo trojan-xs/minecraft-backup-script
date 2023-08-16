@@ -9,7 +9,7 @@ Written in Bash with the assistance of our beloved ChatGPT.
 
 # Installation
 ```
-git clone https://github.com/trojan-xs/universal-backup-script/main/backup.sh
+wget https://raw.githubusercontent.com/trojan-xs/universal-backup-script/main/backup.sh
 ```
 
 # Usage
