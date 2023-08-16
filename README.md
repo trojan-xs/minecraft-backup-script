@@ -11,6 +11,14 @@ git clone https://github.com/trojan-xs/minecraft-backup-script.git
 ```
 
 # Usage
+
+```
+Options:                                                                                                                                                                                            -h, --help                  Display this help message                                                                                                                                             -t, --target <dir>          Set the source directory for backup (default: /path/to/target)                                                                                                        -d, --destination <dir>     Set the destination directory for backups (default: /path/to/destination/)                                                                                            -bkl, --backup-log <file>   Set the backup logfile path (default: /path/to/backup.log)                                                                                                            -m, --maxfiles <num>        Set the maximum number of files to keep (default: 10)                                                                                                                 -del, --delete-old <true|false> Perform delete old operation (delete old archive files) [default: 0]                                                                                              -cl, --clear-log <file>     Set the clear logfile path (default: /path/to/delete.log)                     
+
+```
+
+
+# Scheduling
 This script is used with crontab. Specify the frequency of execution through crontab.
 ```
 # ┌───────────── minute (0 - 59)
