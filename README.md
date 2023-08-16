@@ -1,11 +1,10 @@
 # minecraft-backup-script
-This script is used to back up and archive your Linux Minecraft server! Written in Bash with the help of ChatGPT.
+This script is used to back up and archive your Linux Minecraft server! Written in Bash with the assistance of our beloved ChatGPT.
 
-# Usage
+# Installation
 ```
 git clone https://github.com/trojan-xs/minecraft-backup-script.git
 ```
-
 
 # Usage
 This script is used with crontab. Specify the frequency of execution through crontab.
@@ -20,3 +19,6 @@ This script is used with crontab. Specify the frequency of execution through cro
 # │ │ │ │ │ │
 # * * * * * /bin/bash {Location of the script}
 ```
+
+# Features to add
+Flags for file directories, backup frequency, etc.
