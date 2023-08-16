@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/server-save.png" width="802" />
+  <img src="./assets/server-image.png" width="500" />
 </p>
 
 # universal-backup-script
