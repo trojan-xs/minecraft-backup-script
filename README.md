@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/server-save.png" width="802" />
+</p>
+
 # minecraft-backup-script
 This script is used to back up and archive your Linux Minecraft server! Written in Bash with the assistance of our beloved ChatGPT.
 
