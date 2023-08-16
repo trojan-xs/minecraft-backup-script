@@ -2,12 +2,14 @@
   <img src="./assets/server-save.png" width="802" />
 </p>
 
-# minecraft-backup-script
-This script is used to back up and archive your Linux Minecraft server! Written in Bash with the assistance of our beloved ChatGPT.
+# universal-backup-script
+The script serves as a versatile backup and maintenance tool designed originally for Minecraft servers' backup needs. It enables users to create compressed backups of source directories, maintain detailed logs of backup and clearing operations, and optionally automate the removal of older archive files. The script's flexibility allows users to safeguard important data, conserve storage space, and streamline backups.
+Written in Bash with the assistance of our beloved ChatGPT.
+
 
 # Installation
 ```
-git clone https://github.com/trojan-xs/minecraft-backup-script.git
+git clone https://github.com/trojan-xs/ubs
 ```
 
 # Usage
@@ -44,4 +46,4 @@ This script is used with crontab. Specify the frequency of execution through cro
 stolen from K0p1-Git's cloudflare-ddns-updater
 
 # Features to add
-Flags for file directories, backup frequency, etc.
+- Ability to transfer files (scp or sftp) to another server for redundancy
