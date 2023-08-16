@@ -19,6 +19,7 @@ This script is used with crontab. Specify the frequency of execution through cro
 # │ │ │ │ │ │
 # * * * * * /bin/bash {Location of the script}
 ```
+^stolen from K0p1-Git's cloudflare-ddns-updater
 
 # Features to add
 Flags for file directories, backup frequency, etc.
