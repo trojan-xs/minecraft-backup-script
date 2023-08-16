@@ -21,7 +21,7 @@ Options:
 -d, --destination <dir>            Set the destination directory for backups (default: /path/to/destination/)
 -bkl, --backup-log <file>          Set the backup logfile path (default: /path/to/backup.log)
 -m, --maxfiles <num>               Set the maximum number of files to keep (default: 10)
--del, --delete-old <true|false>    Perform delete old operation (delete old archive files) [default: 0]
+-del, --delete-old <true|false>    Perform delete old operation (delete old archive files) [default: false]
 -cl, --clear-log <file>            Set the clear logfile path (default: /path/to/delete.log)                     
 ```
 Example:
