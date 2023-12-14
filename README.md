@@ -47,6 +47,7 @@ stolen from K0p1-Git's cloudflare-ddns-updater
 
 # Features to add
 - Simple graphical interface to specify directory locations and to edit cron file
+- .config file in home folder
 - Ability to transfer files (scp or sftp) to another server for redundancy
 
 
